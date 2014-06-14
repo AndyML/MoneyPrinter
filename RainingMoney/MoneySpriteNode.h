@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MoneySprite.h
 //  RainingMoney
 //
 //  Created by Lapin, Andy (KBB) on 6/13/14.
@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
 
-@interface ViewController : UIViewController
+@interface MoneySpriteNode : SKSpriteNode
+
+- (void)startMoving;
 
 @end

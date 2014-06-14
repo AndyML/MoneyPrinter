@@ -22,6 +22,15 @@
 		7C561D7C194B3E030019F154 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C561D5B194B3E030019F154 /* UIKit.framework */; };
 		7C561D84194B3E030019F154 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C561D82194B3E030019F154 /* InfoPlist.strings */; };
 		7C561D86194B3E030019F154 /* RainingMoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C561D85194B3E030019F154 /* RainingMoneyTests.m */; };
+		7C561D90194B3E1A0019F154 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C561D8F194B3E1A0019F154 /* SpriteKit.framework */; };
+		7C561D93194B3F3E0019F154 /* MoneySpriteNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C561D92194B3F3E0019F154 /* MoneySpriteNode.m */; };
+		7C561D96194B408C0019F154 /* MoneyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C561D95194B408C0019F154 /* MoneyScene.m */; };
+		7C561D9E194B436B0019F154 /* dollah.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C561D98194B436B0019F154 /* dollah.png */; };
+		7C561D9F194B436B0019F154 /* dollah@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C561D99194B436B0019F154 /* dollah@2x.png */; };
+		7C561DA0194B436B0019F154 /* hundred.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C561D9A194B436B0019F154 /* hundred.png */; };
+		7C561DA1194B436B0019F154 /* hundred@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C561D9B194B436B0019F154 /* hundred@2x.png */; };
+		7C561DA2194B436B0019F154 /* twenty.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C561D9C194B436B0019F154 /* twenty.png */; };
+		7C561DA3194B436B0019F154 /* twenty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C561D9D194B436B0019F154 /* twenty@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +64,17 @@
 		7C561D81194B3E030019F154 /* RainingMoneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RainingMoneyTests-Info.plist"; sourceTree = "<group>"; };
 		7C561D83194B3E030019F154 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C561D85194B3E030019F154 /* RainingMoneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainingMoneyTests.m; sourceTree = "<group>"; };
+		7C561D8F194B3E1A0019F154 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		7C561D91194B3F3E0019F154 /* MoneySpriteNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneySpriteNode.h; sourceTree = "<group>"; };
+		7C561D92194B3F3E0019F154 /* MoneySpriteNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneySpriteNode.m; sourceTree = "<group>"; };
+		7C561D94194B408C0019F154 /* MoneyScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyScene.h; sourceTree = "<group>"; };
+		7C561D95194B408C0019F154 /* MoneyScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyScene.m; sourceTree = "<group>"; };
+		7C561D98194B436B0019F154 /* dollah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollah.png; sourceTree = "<group>"; };
+		7C561D99194B436B0019F154 /* dollah@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dollah@2x.png"; sourceTree = "<group>"; };
+		7C561D9A194B436B0019F154 /* hundred.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hundred.png; sourceTree = "<group>"; };
+		7C561D9B194B436B0019F154 /* hundred@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hundred@2x.png"; sourceTree = "<group>"; };
+		7C561D9C194B436B0019F154 /* twenty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twenty.png; sourceTree = "<group>"; };
+		7C561D9D194B436B0019F154 /* twenty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twenty@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C561D90194B3E1A0019F154 /* SpriteKit.framework in Frameworks */,
 				7C561D5A194B3E030019F154 /* CoreGraphics.framework in Frameworks */,
 				7C561D5C194B3E030019F154 /* UIKit.framework in Frameworks */,
 				7C561D58194B3E030019F154 /* Foundation.framework in Frameworks */,
@@ -103,6 +124,7 @@
 		7C561D56194B3E030019F154 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7C561D8F194B3E1A0019F154 /* SpriteKit.framework */,
 				7C561D57194B3E030019F154 /* Foundation.framework */,
 				7C561D59194B3E030019F154 /* CoreGraphics.framework */,
 				7C561D5B194B3E030019F154 /* UIKit.framework */,
@@ -114,6 +136,7 @@
 		7C561D5D194B3E030019F154 /* RainingMoney */ = {
 			isa = PBXGroup;
 			children = (
+				7C561D97194B43440019F154 /* images */,
 				7C561D66194B3E030019F154 /* AppDelegate.h */,
 				7C561D67194B3E030019F154 /* AppDelegate.m */,
 				7C561D69194B3E030019F154 /* Main_iPhone.storyboard */,
@@ -122,6 +145,10 @@
 				7C561D70194B3E030019F154 /* ViewController.m */,
 				7C561D72194B3E030019F154 /* Images.xcassets */,
 				7C561D5E194B3E030019F154 /* Supporting Files */,
+				7C561D91194B3F3E0019F154 /* MoneySpriteNode.h */,
+				7C561D92194B3F3E0019F154 /* MoneySpriteNode.m */,
+				7C561D94194B408C0019F154 /* MoneyScene.h */,
+				7C561D95194B408C0019F154 /* MoneyScene.m */,
 			);
 			path = RainingMoney;
 			sourceTree = "<group>";
@@ -153,6 +180,19 @@
 				7C561D82194B3E030019F154 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C561D97194B43440019F154 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7C561D98194B436B0019F154 /* dollah.png */,
+				7C561D99194B436B0019F154 /* dollah@2x.png */,
+				7C561D9A194B436B0019F154 /* hundred.png */,
+				7C561D9B194B436B0019F154 /* hundred@2x.png */,
+				7C561D9C194B436B0019F154 /* twenty.png */,
+				7C561D9D194B436B0019F154 /* twenty@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,10 +271,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C561D9F194B436B0019F154 /* dollah@2x.png in Resources */,
 				7C561D6E194B3E030019F154 /* Main_iPad.storyboard in Resources */,
 				7C561D73194B3E030019F154 /* Images.xcassets in Resources */,
 				7C561D6B194B3E030019F154 /* Main_iPhone.storyboard in Resources */,
+				7C561DA0194B436B0019F154 /* hundred.png in Resources */,
+				7C561DA1194B436B0019F154 /* hundred@2x.png in Resources */,
 				7C561D62194B3E030019F154 /* InfoPlist.strings in Resources */,
+				7C561DA2194B436B0019F154 /* twenty.png in Resources */,
+				7C561D9E194B436B0019F154 /* dollah.png in Resources */,
+				7C561DA3194B436B0019F154 /* twenty@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +300,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C561D71194B3E030019F154 /* ViewController.m in Sources */,
+				7C561D96194B408C0019F154 /* MoneyScene.m in Sources */,
 				7C561D68194B3E030019F154 /* AppDelegate.m in Sources */,
 				7C561D64194B3E030019F154 /* main.m in Sources */,
+				7C561D93194B3F3E0019F154 /* MoneySpriteNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
